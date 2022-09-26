@@ -18,4 +18,3 @@ const catSchema = mongoose.Schema({
 const Cat = mongoose.model("Cat", catSchema);
 
 module.exports = {Cat};
-
