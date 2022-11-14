@@ -42,8 +42,8 @@ There were also a number of Stretch Goals:
 
 - Make the application responsive
 - Use a CSS library like Bootstrap
-- Add extra resources.
-- Allow users to upload image files.
+- Add extra resources
+- Allow users to upload image files
 
 A full unabridged brief for the project can be read [here](https://github.com/Emsley1d/Project02-Rate-My-Cat/blob/master/Brief.md).
 #
