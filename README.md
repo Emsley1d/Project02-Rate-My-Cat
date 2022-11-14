@@ -71,6 +71,8 @@ We spent some time researching each idea; although we were keen on the photo sha
 Ultimately we decided upon my idea which was Rate My Cat. Unlike the other ideas there is no actual Rate My Cat website or app. There is no cat rating app on either the Apple Store or the Google Play Store and although ratemycat.com is owned; there is no actual web page and the domain (at the time of writing) is for sale. We felt that Rate My Cat would be the easiest platform to grow; you could have different leaderboards based on breed, age, location etc. You could hold monthly competitions and eventually create an online shop.
 
 It also satisfied all requirements listed in the brief and would allow us to easily implement some of the optional 'Stretch Technical Goals'; namely allowing users to upload images and making the application responsive.
+
+As the General Assembly course was entirely remote we communicated exclusively through Zoom and Slack. We spent all working day on Zoom together and on occasion remained on Zoom up until 10pm in the evening. When Zoom wasn’t available or when all 3 of us weren’t present (for example on the weekend) we provided updates and solutions via our group chat on Slack. 
 #
 
 ## Wireframe:
