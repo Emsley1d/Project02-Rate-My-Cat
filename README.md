@@ -1,14 +1,17 @@
-# Project 02 - Rate My Cat
+# PROJECT 02 - RATE MY CAT
 
-**Description:**
+##  Description:
 
 This was my second of four projects for the Software Engineering Immersive course run by General Assembly. The project was created over the course of a week and was a team effort with two others; Sasha Ward and Ashish Singh ([https://github.com/EHCarr](https://github.com/EHCarr)) Please click their names to view their GitHub profiles. (LINK)
 
-# Deployment link:
+## Deployment link:
 
-Our project can be viewed by clicking this link. [https://ratemycatapp.herokuapp.com/](https://ratemycatapp.herokuapp.com/)
+Our project can be viewed here:
 
-# Technologies Used:
+[https://ratemycatapp.herokuapp.com/](https://ratemycatapp.herokuapp.com/)
+#
+
+## Technologies Used:
 
 We spent the two weeks prior to creating the project learning the below which we implemented into our project:
 
@@ -24,8 +27,9 @@ We implemented all the above in our project; in addition to the languages we had
 - jQuery
 - HTML
 - CSS
+#
 
-**Brief** :
+## Brief:
 
 The general requirements for our project stipulated the below:
 
@@ -42,36 +46,41 @@ There were also a number of Stretch Goals:
 - Allow users to upload image files.
 
 A full unabridged brief for the project can be read here. (LINK)
+#
 
-**Planning**:
+## Planning:
 
 Each team member presented an idea; our three ideas consisted of the below:
 
-- **Rate My Cat App**
 
-An app where users can upload photographs of their cats and can both comment upon and rate each other's cats.
+  - **Rate My Cat App**
 
-- **Photo Sharing App**
+    An app where users can upload photographs of their cats and can both comment upon and rate each other's cats.
 
-An app where users can upload photographs; comment on each other's photos, share hints, tips and technical camera settings.
+  - **Photo Sharing App**
 
-- **Song sharing/playlist creation App**
+    An app where users can upload photographs; comment on each other's photos, share hints, tips and technical camera settings.
 
-An app where users can upload song clips, create, share and comment on playlists.
+  - **Song sharing/playlist creation App**
+
+  An app where users can upload song clips, create, share and comment on playlists.
+
 
 We spent some time researching each idea; although we were keen on the photo sharing app there were already many iterations of the same idea. Again we liked the idea of a song sharing/playlist creation app; however we wanted something more visual and were unable to find a free API that would allow us to share clips.
 
 Ultimately we decided upon my idea which was Rate My Cat. Unlike the other ideas there is no actual Rate My Cat website or app. There is no cat rating app on either the Apple Store or the Google Play Store and although ratemycat.com is owned; there is no actual web page and the domain (at the time of writing) is for sale. We felt that Rate My Cat would be the easiest platform to grow; you could have different leaderboards based on breed, age, location etc. You could hold monthly competitions and eventually create an online shop.
 
 It also satisfied all requirements listed in the brief and would allow us to easily implement some of the optional 'Stretch Technical Goals'; namely allowing users to upload images and making the application responsive.
+#
 
-**Wireframe:**
+## Wireframe:
 
 I found myself with some unexpected free time and knew that the following day we were tasked with creating a Wireframe and ERD for our application. Under my own initiative I created an extensive Wireframe on Figma; the idea to give my team a headstart the following day. My Wireframe incorporated both the desktop site and mobile view. I presented my Wireframe to the team in the morning and after some discussion we settled on the final design.
 
 The below is only a number of Mobile screens but the full Wireframe can be viewed here (LINK). ![](RackMultipart20221114-1-er61e6_html_4870b7f1ed39294d.png)
+#
 
-**ERD:**
+## ERD:
 
 The brief stipulated we should have three resources; a User and two of our own choosing.
 
@@ -80,14 +89,16 @@ We settled on Cat and Location being our additional resources and as per the bri
 ![](RackMultipart20221114-1-er61e6_html_14711444cd47ba42.png)
 
 The ERD was a team effort and we worked on it simultaneously using Lucid. It prompted discussion of how many cats we would have per user; how many leaderboards we would have etc. For the time being we settled on having one cat per user; one leaderboard for many cats and one location per cat.
+#
 
-**Trello Board:**
+## Trello Board:
 
 In order to create, assign and manage tasks, we decided a Trello board would be of benefit. Our Team Leader (Sasha) created the board and it allowed us to work more effectively as a team. You can find the link to our Trello board [here](https://trello.com/b/BjeZaJ0E/rate-my-cat) but the below is how it originally appeared:
 
 ![](RackMultipart20221114-1-er61e6_html_fc3720f366450cf0.png)
+#
 
-**User Stories:**
+## User Stories:
 
 We then discussed the User Stories and agreed on the below:
 
@@ -111,18 +122,20 @@ should we have the time and know how to do so:
 - BONUS: As a user, I want to see who other users are
 
 We added these to the unassigned tasks tab on our Trello board to effectively use as a checklist towards the end of the project.
+#
 
-**Delegation of Work:**
+## Delegation of Work:
 
 After our team leader had created the basic files and folders (server.js, Controllers, Models, Views etc) in VS Code, pushed to gitHub and we had successfully cloned and pulled the repository we discussed how best to divide the work.
 
 We thought it fairest if each person was responsible for a resource; either Cat, User or Leaderboard. That way we would all gain the same experience of linking our individual resources files together as well as be best placed to help each other out if one of us had difficulty doing so.
 
 We also chose to work on one additional feature each so initially I was responsible for the Cat pages (controller, model, routes and cat add, details, edit and index in the Views folder) as well as the user Image Upload functionality.
+#
 
 ## Build/Code Process:
 
-**Step 1.**
+### Step 1:
 
 Having agreed on the contents of the Cat model (whilst compiling our ERD) I created the Cat schema; I commented out user, image, comment and rating and left these as placeholders until we established how to implement each:
 
@@ -138,7 +151,7 @@ And the routes files with the basic routes:
 
 It was difficult to do anymore than this until other elements had been worked on by the others in our group so I turned my attention to the Cat views (add, delete, edit and index) files.
 
-**Step 2.**
+### Step 2:
 
 I first concentrated on the Cat add functionality and how best to request the information from the user.
 
@@ -158,7 +171,7 @@ I settled on using County for the drop down options.
 
 I managed to get the Cat add page working however, neither Edit, Index or View worked - I assumed because there were no users or cats as of yet because Ashish was still working on the User functionality. I was unable to test either page until the User pages had been completed so I focused on the Image Upload functionality.
 
-**STEP 3.**
+### Step 3:
 
 After researching the best middleware to allow users to upload images I settled on using Multer; I thought it gave us the most flexibility when it came to storing uploaded images and (should we decide to at a later date) could allow users to upload multiple images at the sametime.
 
@@ -186,7 +199,7 @@ This created the below image preview after a user selects a photo:
 
 With the User functionality still not completed and having taken the Cat add functionality as far as I could I turned my attention to creating the Leaderboard.
 
-**STEP 4.**
+### Step 4:
 
 I started to research how to create a Leaderboard based on the average rating of each individual cat. I discovered the below on GitHub and thought it may be possible to adapt the code for our use:
 
@@ -198,7 +211,7 @@ I downloaded the repo from GitHub and started to go over the code
 
 However, it was at this point the User functionality and pages had been completed; allowing me to test the Cat Edit, Index and View pages. I thought it best to test the pages and continue with the Leaderboard and ratings later; I communicated this to the others in my group should they wish to carry on where I left off.
 
-**STEP 5.**
+### Step 5:
 
 Now that the User functionality had been implemented and we could successfully add cats I set about working on the Cats Edit, Index and View pages.
 
@@ -214,7 +227,7 @@ The code that allowed me to do so was:
 
 ![](RackMultipart20221114-1-er61e6_html_c4128a5e278a21fc.png)
 
-**STEP 6.**
+### Step 6:
 
 Our original index page listed each key value pair from the cat schema in a table:
 
@@ -234,7 +247,7 @@ Adding the CSS card styling resulted in a much more presentable index page:
 
 ![](RackMultipart20221114-1-er61e6_html_b04bbd8206a8b211.png)
 
-**Step 7.**
+### Step 7:
 
 We always felt that our application would work best on mobile and a responsive design was one of the bonus objectives set out in our brief. I realised that as of yet we hadn't made any attempt to make it responsive so I set about doing so.
 
@@ -244,7 +257,7 @@ Not knowing any better at the time we had been using 'px' to style the majority 
 
 ![](RackMultipart20221114-1-er61e6_html_423b58a22a252be8.png)
 
-**Step 8:**
+### Step 8:
 
 The majority of styling we had added up until this point was just backgrounds and colours added early during the development that effectively just acted as placeholders. These was no overall style or identity to the site:
 
@@ -263,8 +276,9 @@ Although we were a little pushed for time I tried to improve the overall appeara
 I settled on a repeating pattern for the background because as more cats were added the 'Cats' page grew in length meaning the background either had to be stretched or repeated. To use anything other than a repeating pattern made the index appear a little amateurish.
 
 Although I still wasn't happy with the appearance, it was an improvement on the original styling and the best that I could achieve in the short time left before the project deadline.
+#
 
-# Challenges:
+## Challenges:
 
 - Making the application responsive took longer than expected and involved a lot of trial and error; playing around with Flexbox etc. In hindsight I could have saved a lot of time and effort by using Media Queries. The trial and error was not helped by the fact the Chrome extension we were using to view the responsive layout didn't actually match the true responsive layout when the live Rate My Cat website was viewed on a mobile phone.
 
@@ -277,28 +291,32 @@ Although I still wasn't happy with the appearance, it was an improvement on the 
 - At the time of deploying our application to Heroku we were unaware that it was not suitable for persistent storage of data. We kept discovering that the majority of the uploaded user images were deleted after a couple of hours. I thought this might be due to the image sizes so I set about testing my theory by uploading different sized images from 1.5mb to 10mb. Ultimately all the images were deleted so in future I will look at deploying applications on another host:
 
 ![](RackMultipart20221114-1-er61e6_html_4ff7eb28c1c70e5.png)
+#
 
-# Wins:
+## Wins:
 
 - I effectively achieved two of the Stretch Goals single handedly; these being to make the application responsive and to allow a user to upload images.
 - Although a very small touch I was really happy with the image preview after a user chooses an image to upload.
 - Again a very small touch but I was happy that I managed to work out how to add a number to the range slider so a User could see exactly what rating score they were providing.
 - For our first group project we worked incredibly well together and I believe we each complemented each other's knowledge and method of working. We each put in equal time and effort and kept each other focused and motivated even when working long into each evening.
+#
 
-# Key Learnings/Takeaways:
+## Key Learnings/Takeaways:
 
 - That when working in a team with multiple people communication is key. Although we each annotated our code, communicated over zoom and pushed and pulled from git collectively; as the week went on and the deadline loomed we became less and less strict. Ultimately the drop in communication and our organisation caused us to lose time by having to fix issues of our own creation.
 - If I were to do future projects with three or more people I would try to implement a change log; a file in which users could list all changes they've made since the last push or pull. This would make it easier to identify when one user's push or merge might have affected another developer's code or function.
+#
 
-**Bugs:**
+## Bugs:
 
 - Multer doesn't currently delete the cat photos from the upload destination. The entries are deleted from MongoDB but the actual image remains in our uploads folder.
 - When a cat is being edited and a user changes the cat's image the new image isn't saved and the original image continues to be displayed.
 - As detailed earlier; despite a user having to be signed into their profile when adding a cat; the user is asked to select a name from a list of all users before uploading. If a user selects another user's name they can upload from that user's profile.
 - The background changes size when flicking between the various screens.
 - When clicking on a user's details to view their profile the file name of the cat images they uploaded appears as opposed to the actual image itself.
+#
 
-**Future Improvements:**
+## Future Improvements:
 
 - Allow users to upload multiple photos of the same cat. This should in theory be an easy improvement as Multer already has the capability to do so.
 - Allow users to display a photo of their choosing on their profile; be it a picture of themselves, or an avatar etc. This would help us mirror the CSS Card format the cat's profiles display in on the Cat page.
