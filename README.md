@@ -2,7 +2,7 @@
 
 ##  Description:
 
-This was my second of four projects for the Software Engineering Immersive course run by General Assembly. The project was created over the course of a week and was a team effort with two others; Sasha Ward and Ashish Singh ([https://github.com/EHCarr](https://github.com/EHCarr)) Please click their names to view their GitHub profiles. (LINK)
+This was my second of four projects for the Software Engineering Immersive course run by General Assembly. The project was created over the course of a week and was a team effort with two others; [Sasha Ward](https://github.com/alexwardcodes) and [Ashish Singh](https://github.com/EHCarr).
 
 ## Deployment link:
 
@@ -45,7 +45,7 @@ There were also a number of Stretch Goals:
 - Add extra resources.
 - Allow users to upload image files.
 
-A full unabridged brief for the project can be read here. (LINK)
+A full unabridged brief for the project can be read [here](https://github.com/Emsley1d/Project02-Rate-My-Cat/blob/master/Brief.md).
 #
 
 ## Planning:
@@ -77,7 +77,9 @@ It also satisfied all requirements listed in the brief and would allow us to eas
 
 I found myself with some unexpected free time and knew that the following day we were tasked with creating a Wireframe and ERD for our application. Under my own initiative I created an extensive Wireframe on Figma; the idea to give my team a headstart the following day. My Wireframe incorporated both the desktop site and mobile view. I presented my Wireframe to the team in the morning and after some discussion we settled on the final design.
 
-The below is only a number of Mobile screens but the full Wireframe can be viewed here (LINK). ![](RackMultipart20221114-1-er61e6_html_4870b7f1ed39294d.png)
+The below is only a number of Mobile screens but the full Wireframe can be viewed [here](https://github.com/Emsley1d/Project02-Rate-My-Cat/blob/master/Wireframe.png). 
+
+![](RackMultipart20221114-1-er61e6_html_4870b7f1ed39294d.png)
 #
 
 ## ERD:
