@@ -82,6 +82,7 @@ I found myself with some unexpected free time and knew that the following day we
 The below is only a number of Mobile screens but the full Wireframe can be viewed [here](https://github.com/Emsley1d/Project02-Rate-My-Cat/blob/master/Wireframe.png). 
 
 ![wireframe](./readme-images/Screenshot%202022-11-15%20at%2012.09.41.png)
+
 #
 
 ## ERD:
@@ -90,7 +91,7 @@ The brief stipulated we should have three resources; a User and two of our own c
 
 We settled on Cat and Location being our additional resources and as per the brief we created an ERD of our idea:
 
-![ERD](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.13.23.png)
+![ERD](./readme-images/Screenshot%202022-11-15%20at%2012.13.23.png)
 
 The ERD was a team effort and we worked on it simultaneously using Lucid. It prompted discussion of how many cats we would have per user; how many leaderboards we would have etc. For the time being we settled on having one cat per user; one leaderboard for many cats and one location per cat.
 #
@@ -99,7 +100,7 @@ The ERD was a team effort and we worked on it simultaneously using Lucid. It pro
 
 In order to create, assign and manage tasks, we decided a Trello board would be of benefit. Our Team Leader (Sasha) created the board and it allowed us to work more effectively as a team. You can find the link to our Trello board [here](https://trello.com/b/BjeZaJ0E/rate-my-cat) but the below is how it originally appeared:
 
-![trello](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.14.36.png)
+![trello](./readme-images/Screenshot%202022-11-15%20at%2012.14.36.png)
 #
 
 ## User Stories:
