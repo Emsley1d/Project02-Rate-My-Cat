@@ -144,15 +144,15 @@ We also chose to work on one additional feature each so initially I was responsi
 
 Having agreed on the contents of the Cat model (whilst compiling our ERD) I created the Cat schema; I commented out user, image, comment and rating and left these as placeholders until we established how to implement each:
 
-![schema](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.16.37.png)
+![schema](./readme-images/Screenshot%202022-11-15%20at%2012.16.37.png)
 
 I populated the corresponding Cat controller file with the basic CRUD operations; using previous homeworks and class exercises as templates:
 
-![crud](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.17.01.png)
+![crud](./readme-images/Screenshot%202022-11-15%20at%2012.17.01.png)
 
 And the routes files with the basic routes:
 
-![routes](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.40.50.png)
+![routes](./readme-images/Screenshot%202022-11-15%20at%2012.40.50.png)
 
 It was difficult to do anymore than this until other elements had been worked on by the others in our group so I turned my attention to the Cat views (add, delete, edit and index) files.
 
@@ -164,7 +164,7 @@ Originally our 'Age' field was set to only accept numbers however there would ob
 
 Using the input type of "date" I realised it would allow you to enter a future date as far in advance as I liked or a past date as far back as I wanted. Although not crucial I wanted to limit the date range a user could select from to improve the user experience. After investigating and experimenting I found that I could limit the maximum date to the current day's date and chose to limit the oldest date to 01/01/2000:
 
-![date](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.43.00.png)
+![date](./readme-images/Screenshot%202022-11-15%20at%2012.43.00.png)
 
 However, the calendar just wouldn't work without providing a specific maximum date hence having to include a max value.
 
@@ -182,25 +182,25 @@ After researching the best middleware to allow users to upload images I settled 
 
 I read a number of Multer walkthroughs online and watched instructional videos on Youtube and eventually got Multer working; so far as the user being able to upload a photo and that image saving into MongoDB. However, only the image filename was stored in MongoDB and a broken image link appeared in the browser:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.45.41.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.45.41.png)
 
 I eventually realised I hadn't updated the cats routes folder so following the walkthroughs again I updated it with the below:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.46.06.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.46.06.png)
 
 and added another route:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.46.16.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.46.16.png)
 
 This resolved the issue and got Multer working correctly.
 
 Personally, as a user whenever I upload a photo online I like to see a small preview appear; even if just to confirm I have selected the correct image. I wanted our users to have an image preview as well so researched how to do so and achieved it by writing the below:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.48.19.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.48.19.png)
 
 This created the below image preview after a user selects a photo:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.49.01.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.49.01.png)
 
 With the User functionality still not completed and having taken the Cat add functionality as far as I could I turned my attention to creating the Leaderboard.
 
@@ -210,7 +210,7 @@ I started to research how to create a Leaderboard based on the average rating of
 
 [https://github.com/ndaidong/average-rating](https://github.com/ndaidong/average-rating)
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.50.40.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.50.40.png)
 
 I downloaded the repo from GitHub and started to go over the code
 
@@ -226,23 +226,23 @@ I settled on the best methods of doing so to be either radio buttons or a range 
 
 I consulted with the others in my group; we liked the fact you could assign a value to a radio button so a user would know exactly what they were rating a cat. However, we far preferred the look of the range slider and thought it provided a better user experience. I played around with the range slider; I discovered I could add a value next to the 'Submit' button that appeared and then changed as a user moved the range slider:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.51.04.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.51.04.png)
 
 The code that allowed me to do so was:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.53.32.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.53.32.png)
 
 ### Step 6:
 
 Our original index page listed each key value pair from the cat schema in a table:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.54.12.png
+![](./readme-images/Screenshot%202022-11-15%20at%2012.54.12.png
 
 Not only was it a poor way to display the information; listing each key value pair effectively made each cat's individual page redundant as there was no real incentive for the user to click on a cat to view anything further.
 
 I had the idea of using CSS cards to display each cat and created the below mock-ups:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.55.36.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.55.36.png)
 
 We discussed them as a group and settled on the second example and decided to only show each cat's name; preferring any additional details to be displayed when clicking on each Cat and being taken to their individual page.
 
@@ -250,7 +250,7 @@ To accommodate the new CSS card styling I moved the Edit cat button to the cat D
 
 Adding the CSS card styling resulted in a much more presentable index page:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.56.21.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.56.21.png)
 
 ### Step 7:
 
@@ -260,23 +260,23 @@ I ran mobile and desktop websites side by side to ensure in making the website r
 
 Not knowing any better at the time we had been using 'px' to style the majority of elements as opposed to '%' or 'em'; however I discovered that I could make the majority of our pages responsive by simply setting max width to 100% and justifying content to center:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.58.41.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.58.41.png)
 
 ### Step 8:
 
 The majority of styling we had added up until this point was just backgrounds and colours added early during the development that effectively just acted as placeholders. These was no overall style or identity to the site:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2012.59.09.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2012.59.09.png)
 
 It was at this point I also realised Darth Vader played a starring role in our background image:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2013.00.49.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2013.00.49.png)
 
 Although we were a little pushed for time I tried to improve the overall appearance of our website; ultimately culminating in the below:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2013.01.39.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2013.01.39.png)
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2013.01.52.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2013.01.52.png)
 
 I settled on a repeating pattern for the background because as more cats were added the 'Cats' page grew in length meaning the background either had to be stretched or repeated. To use anything other than a repeating pattern made the index appear a little amateurish.
 
@@ -295,7 +295,7 @@ Although I still wasn't happy with the appearance, it was an improvement on the 
 
 - At the time of deploying our application to Heroku we were unaware that it was not suitable for persistent storage of data. We kept discovering that the majority of the uploaded user images were deleted after a couple of hours. I thought this might be due to the image sizes so I set about testing my theory by uploading different sized images from 1.5mb to 10mb. Ultimately all the images were deleted so in future I will look at deploying applications on another host:
 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2013.03.02.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2013.03.02.png)
 #
 
 ## Wins:
@@ -332,4 +332,4 @@ Although I still wasn't happy with the appearance, it was an improvement on the 
 - To bring back the edit and delete buttons for each cat.
 - Implement flash messages for successful login/logout and for successfully adding or deleting a cat.
 - To improve the overall aesthetic of the app; unfortunately the end design (background color, images, fonts etc) was a little rushed. I would like to make the appearance more sophisticated and modern. Perhaps something along the lines of the below: 
-![](/RateMyCat/readme-images/Screenshot%202022-11-15%20at%2013.03.26.png)
+![](./readme-images/Screenshot%202022-11-15%20at%2013.03.26.png)
