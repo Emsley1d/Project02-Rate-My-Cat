@@ -20,13 +20,14 @@ We spent the two weeks prior to creating the project learning the below which we
 - Middleware
 - MongoDB
 - Mongoose
+- Multer
 
 We implemented all the above in our project; in addition to the languages we had previously learnt:
 
 - JavaScript
 - jQuery
 - HTML
-- CSS
+- CSS (including Flexbox)
 #
 
 ## Brief:
@@ -212,13 +213,13 @@ I started to research how to create a Leaderboard based on the average rating of
 
 ![](./readme-images/Screenshot%202022-11-15%20at%2012.50.40.png)
 
-I downloaded the repo from GitHub and started to go over the code
+I downloaded the repo from GitHub and started to go over the code.
 
 However, it was at this point the User functionality and pages had been completed; allowing me to test the Cat Edit, Index and View pages. I thought it best to test the pages and continue with the Leaderboard and ratings later; I communicated this to the others in my group should they wish to carry on where I left off.
 
 ### Step 5:
 
-Now that the User functionality had been implemented and we could successfully add cats I set about working on the Cats Edit, Index and View pages.
+Now that the User functionality had been implemented and we could successfully add cats (to test the function I created a number of users and added a Cat to each) I set about working on the Cats Edit, Index and View pages.
 
 The main function of the View page was to allow a User to rate another's cat so I researched the best methods of allowing a user to rate something in HTML.
 
@@ -308,7 +309,7 @@ Although I still wasn't happy with the appearance, it was an improvement on the 
 
 ## Key Learnings/Takeaways:
 
-- That when working in a team with multiple people communication is key. Although we each annotated our code, communicated over zoom and pushed and pulled from git collectively; as the week went on and the deadline loomed we became less and less strict. Ultimately the drop in communication and our organisation caused us to lose time by having to fix issues of our own creation.
+- That when working in a team with multiple people communication is key. Although we each annotated our code, communicated over Zoom and pushed and pulled from Git collectively; as the week went on and the deadline loomed we became less and less strict. Ultimately the drop in communication and our organisation caused us to lose time by having to fix issues of our own creation.
 - If I were to do future projects with three or more people I would try to implement a change log; a file in which users could list all changes they've made since the last push or pull. This would make it easier to identify when one user's push or merge might have affected another developer's code or function.
 #
 
