@@ -6,9 +6,7 @@ This was my second of four projects for the Software Engineering Immersive cours
 
 ## Deployment link:
 
-Our project can be viewed here:
-
-[https://ratemycatapp.herokuapp.com/](https://ratemycatapp.herokuapp.com/)
+Our project can be viewed [here](https://ratemycatapp.herokuapp.com/).
 #
 
 ## Technologies Used:
