@@ -61,8 +61,8 @@ Each team member presented an idea; our three ideas consisted of the below:
     An app where users can upload photographs; comment on each other's photos, share hints, tips and technical camera settings.
 
   - **Song sharing/playlist creation App**
-
-  An app where users can upload song clips, create, share and comment on playlists.
+  
+    An app where users can upload song clips, create, share and comment on playlists.
 
 
 We spent some time researching each idea; although we were keen on the photo sharing app there were already many iterations of the same idea. Again we liked the idea of a song sharing/playlist creation app; however we wanted something more visual and were unable to find a free API that would allow us to share clips.
